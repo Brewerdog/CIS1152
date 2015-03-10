@@ -1,13 +1,12 @@
 <?php
 
-
 /**
- * Lab 4, Form and Post Lab
+ * Lab 2, Arithmatic Lab
  *
- * This lab focuses on your understanding of arithmetic.
+ * This lab focuses on your understanding of arithmatic.
  *
  * @version 1.0
- * @author YOUR_NAME <cmf08270@vtc.edu>
+ * @author YOUR_NAME <YOUR_EMAIL_ADDRESS@vtc.edu>
  * @since 20150120
  */
 
@@ -67,7 +66,7 @@ $form_layout = <<< EOD
 <p>
 <form method="post" action="">
 <label name="truncateFloat">Floating Point Value</label><input type="text" name="truncateFloat"><br>
-<label name="farenheit2Kelvin">Fahrenheit Value</label><input type="text" name="farenheit2Kelvin"><br>
+<label name="farenheit2Kelvin">Farenheit Value</label><input type="text" name="farenheit2Kelvin"><br>
 <label name="dodecahedronVolume"></label>Dodecahedron Side Value<input type="text" name="dodecahedronVolume"><br>
 <label name="impactVelocity">Height of Fall Value</label><input type="text" name="impactVelocity"><br>
 <input type="submit" value="submit" name="submit">
@@ -75,8 +74,8 @@ $form_layout = <<< EOD
 </p>
 EOD;
 
-
 ?>
+
 <html>
 <head>
 <title>Simple PHP Form Example</title>
