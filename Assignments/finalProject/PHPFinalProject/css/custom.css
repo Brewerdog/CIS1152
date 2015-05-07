@@ -1,0 +1,151 @@
+.header-underline {
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+
+.kse-table td {
+	vertical-align: middle;
+	position: relative;
+}
+
+.kse-table select,
+.kse-table input[type="email"] {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	width: 94%;
+}
+
+.kse-table label {
+	margin-bottom: 0px;
+}
+
+#comment-color {
+	position: absolute;
+	right: 10px;
+	bottom: 14px;
+}
+
+#comment-footnote:hover {
+	text-decoration: none;
+}
+
+.kse-table.blue {
+	background-color: #eff6ff;
+}
+
+.candy,
+.btn.square,
+.btn-primary.square {
+	border-radius: 0px;
+}
+
+.slide-button.flat {
+	background-color: #6ec169;
+	background-image: none;
+	border: none;
+}
+
+.kse-table td:last-child {
+	min-width: 240px;
+}
+
+.kse-table {
+	border-bottom: 4px solid #bbb;
+}
+
+.minicolors-swatch {
+	width: 24px;
+	height: 24px;
+	margin: 4px 0;
+}
+
+.option-title {
+	font-family: "OpenSansRegular";
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+	line-height: normal;
+}
+
+.options-container {
+	padding: 10px;
+	border-width: 4px;
+	border-style: solid;
+	background-color: #eff6ff;
+	border-color: #769AB2;
+}
+
+#my-states-container,
+#default-options-container {
+	min-height: 370px;
+}
+
+.responsive-select {
+	width: 100%;
+}
+
+.span6.nested-span {
+	margin-left: 0px;
+}
+
+#password_clear {
+	display: none;
+}
+
+#password-changed {
+	display: none;
+	position: relative;
+	top: -4px;
+}
+
+#password-changed button.close {
+	position: absolute;
+	top: 7px;
+	right: 10px;
+}
+
+#save-button {
+	float: right;
+	height: 50px;
+}
+
+.footnote {
+	display: inline-block;
+	margin-bottom: 15px;
+	padding-right: 10px;
+	float: right;
+}
+
+.btn.disabled {
+	background-color: #bbb;
+	opacity: 0.5;
+}
+
+/*Override the default minicolors positioning to get the color picker to sit better on the page*/
+
+.minicolors-position-left .minicolors-panel {
+	left: -148px;
+}
+
+.minicolors-panel {
+	top: 32px;
+}
+
+#mystates-criteria {
+	margin-top: 36px;
+}
+
+.option-buttons-row {
+	margin-bottom: 10px;
+}
+
+.slide-button.btn-disabled {
+	background-color: #b8b8b8;
+}
+
+.text-disabled {
+	font-style: italic;
+	color: #eee;
+}
